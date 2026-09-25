@@ -1,12 +1,16 @@
 %% Create real experiment for a particular site.
 clearvars;
+% Add src to the path if needed.
+if ~any(which('MAGPIES'))
+    paths;
+end
 setpars;
 close all;
 
+
 p.sigD=1e1; % SWE obs error std (mm)
-p.sigF=0.15; % 
+p.sigF=0.15; 
 p.dostoch=1;
-close all;
 
 
 p.vispri=1;

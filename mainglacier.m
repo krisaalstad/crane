@@ -1,8 +1,14 @@
 %% Create real experiment for a particular site.
 clearvars;
 glacier=1;
+% Add src to the path if needed.
+if ~any(which('MAGPIES'))
+    paths;
+end
 setpars;
 close all;
+
+
 
 % Custom parameters for this experiment
 p.sigD=2e2; % Obs. error std for winter MB, annual MB is double this.
