@@ -1,1 +1,16 @@
+# MATLAB temporary files and caches
+*.asv
+*.m~
+*.slxc
+*.fig
+*.mex*
+*.zip
+
+# Figures
+*.jpg
+*.pdf
+
+# Input and output directories
 input/
+results/
+
