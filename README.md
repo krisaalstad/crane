@@ -3,9 +3,12 @@
   <em>Cryospheric Retrospective Analysis using Nested Ensembles</em>
 </p>
 
-[![DOI - Code](https://zenodo.org/badge/DOI/10.5281/zenodo.22967714.svg)](https://doi.org/10.5281/zenodo.22967714)
-[![DOI - Dataset](https://img.shields.io/badge/DOI-Dataset-blue.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
+<p align="center">
+  <a href="https://doi.org/10.5281/zenodo.22967714"><img src="https://img.shields.io/badge/DOI-Code-blue.svg" alt="DOI - Code"></a>
+  <a href="https://doi.org/10.5281/zenodo.22938686"><img src="https://img.shields.io/badge/DOI-Dataset-blue.svg" alt="DOI - Dataset"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPL--3.0-blue.svg" alt="License"></a>
+</p>
 
 <p align="center">
   <img src=".github/assets/logo.png" alt="CRANE Logo" width="220" />
