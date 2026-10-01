@@ -5,6 +5,7 @@
 
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2609.36077"><img src="https://img.shields.io/badge/arXiv-2609.36077-b31b1b.svg" alt="arXiv Preprint"></a>
   <a href="https://doi.org/10.5281/zenodo.22967714"><img src="https://img.shields.io/badge/DOI-Code-blue.svg" alt="DOI - Code"></a>
   <a href="https://doi.org/10.5281/zenodo.22938686"><img src="https://img.shields.io/badge/DOI-Dataset-blue.svg" alt="DOI - Dataset"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPL--3.0-blue.svg" alt="License"></a>
@@ -19,7 +20,7 @@
 </p>
 
 
-**crane** is the code repository accompanying the manuscript *Climate-informed cryospheric reanalysis via hierarchical Bayesian data assimilation*.
+**crane** is the code repository accompanying the manuscript *Climate-informed cryospheric reanalysis via hierarchical Bayesian data assimilation* that is available as a preprint on [arXiv](https://arxiv.org/abs/2609.36077).
 
 All the source code is in the subdirectory `src`, while the run scripts are `mainsnow.m` and `mainglacier.m` for the snow and glacier experiments, respectively. These scripts set up some of their own custom run parameters, while the rest are defined in `setpars.m`. The main scripts are configured to run as is, but users are free to change settings by toggling switches. For example, setting `p.assimF=1` and `p.assimD=0` in the snow script switches from the SWE data assimilation experiment to the FSCA data assimilation experiment.
 
